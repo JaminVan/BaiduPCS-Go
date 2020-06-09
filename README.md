@@ -1,7 +1,7 @@
 # BaiduPCS-Go 百度网盘客户端
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nhx92nqyrfq9su7y?svg=true)](https://ci.appveyor.com/project/iikira/baidupcs-go)
-[![GoDoc](https://godoc.org/github.com/iikira/BaiduPCS-Go?status.svg)](https://godoc.org/github.com/iikira/BaiduPCS-Go)
+[![Build status](https://ci.appveyor.com/api/projects/status/nhx92nqyrfq9su7y?svg=true)](https://ci.appveyor.com/project/Luis0001/BaiduPCS-Go)
+[![GoDoc](https://godoc.org/github.com/Luis0001/BaiduPCS-Go?status.svg)](https://godoc.org/github.com/Luis0001/BaiduPCS-Go)
 
 仿 Linux shell 文件处理命令的百度网盘命令行客户端.
 
@@ -94,13 +94,13 @@ This project was largely inspired by [GangZhuo/BaiduPCS](https://github.com/Gang
 [离线下载](#离线下载), 支持http/https/ftp/电驴/磁力链协议.
 
 # 编译/交叉编译 说明
-参见 [编译/交叉编译帮助](https://github.com/iikira/BaiduPCS-Go/wiki/编译-交叉编译帮助)
+参见 [编译/交叉编译帮助](https://github.com/Luis0001/BaiduPCS-Go/wiki/编译-交叉编译帮助)
 
 # 下载/运行 说明
 
-Go语言程序, 可直接在[发布页](https://github.com/iikira/BaiduPCS-Go/releases)下载使用.
+Go语言程序, 可直接在[发布页](https://github.com/Luis0001/BaiduPCS-Go/releases)下载使用.
 
-可在这里下载最新commit对应的**测试版**: https://ci.appveyor.com/project/iikira/baidupcs-go/build/artifacts
+可在这里下载最新commit对应的**测试版**: https://ci.appveyor.com/project/Luis0001/BaiduPCS-Go/build/artifacts
 
 如果程序运行时输出乱码, 请检查下终端的编码方式是否为 `UTF-8`.
 
@@ -130,11 +130,11 @@ cli交互模式下, 光标所在行的前缀应为 `BaiduPCS-Go >`, 如果登录
 
 安卓, 建议使用 [Termux](https://termux.com) 或 [NeoTerm](https://github.com/NeoTerm/NeoTerm) 或 终端模拟器, 以提供终端环境.
 
-示例: [Android 运行本项目程序参考示例](https://github.com/iikira/BaiduPCS-Go/wiki/Android-运行本项目程序参考示例), 有兴趣的可以参考一下.
+示例: [Android 运行本项目程序参考示例](https://github.com/Luis0001/BaiduPCS-Go/wiki/Android-运行本项目程序参考示例), 有兴趣的可以参考一下.
 
 苹果iOS, 需要越狱, 在 Cydia 搜索下载并安装 MobileTerminal, 或者其他提供终端环境的软件.
 
-示例: [iOS 运行本项目程序参考示例](https://github.com/iikira/BaiduPCS-Go/wiki/iOS-运行本项目程序参考示例), 有兴趣的可以参考一下.
+示例: [iOS 运行本项目程序参考示例](https://github.com/Luis0001/BaiduPCS-Go/wiki/iOS-运行本项目程序参考示例), 有兴趣的可以参考一下.
 
 具体使用方法请参见 [命令列表及说明](#命令列表及说明) 和 [初级使用教程](#初级使用教程).
 
@@ -164,7 +164,7 @@ BaiduPCS-Go login
 
 ### 使用百度 BDUSS 来登录百度帐号
 
-[关于 获取百度 BDUSS](https://github.com/iikira/BaiduPCS-Go/wiki/关于-获取百度-BDUSS)
+[关于 获取百度 BDUSS](https://github.com/Luis0001/BaiduPCS-Go/wiki/关于-获取百度-BDUSS)
 
 ```
 BaiduPCS-Go login -bduss=<BDUSS>
@@ -371,7 +371,7 @@ BaiduPCS-Go d <网盘文件或目录的路径1> <文件或目录2> <文件或目
  
 自动跳过下载重名的文件!
 
-[关于下载的简单说明](https://github.com/iikira/BaiduPCS-Go/wiki/%E5%85%B3%E4%BA%8E%E4%B8%8B%E8%BD%BD%E7%9A%84%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E)
+[关于下载的简单说明](https://github.com/Luis0001/BaiduPCS-Go/wiki/%E5%85%B3%E4%BA%8E%E4%B8%8B%E8%BD%BD%E7%9A%84%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E)
 
 #### 下载模式说明
 
@@ -901,17 +901,17 @@ cli交互模式下, 运行命令 `config set -max_parallel 250` 将下载最大�
 
 # 常见问题
 
-参见 [常见问题](https://github.com/iikira/BaiduPCS-Go/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+参见 [常见问题](https://github.com/Luis0001/BaiduPCS-Go/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
 # TODO
 
 
 # 相关文档
-详见: https://github.com/iikira/BaiduPCS-Go/tree/master/docs
+详见: https://github.com/Luis0001/BaiduPCS-Go/tree/master/docs
 
 # 交流反馈
 
-提交Issue: [Issues](https://github.com/iikira/BaiduPCS-Go/issues)
+提交Issue: [Issues](https://github.com/Luis0001/BaiduPCS-Go/issues)
 
 邮箱: i@mail.iikira.com
 
@@ -923,4 +923,4 @@ QQ群: 178324706
 
 |支付宝|微信|
 |:-----:|:-----:|
-|![alipay](https://github.com/iikira/BaiduPCS-Go/raw/master/assets/donate/alipay.jpg)|![weixin](https://github.com/iikira/BaiduPCS-Go/raw/master/assets/donate/weixin.png)|
+|![alipay](https://github.com/Luis0001/BaiduPCS-Go/raw/master/assets/donate/alipay.jpg)|![weixin](https://github.com/Luis0001/BaiduPCS-Go/raw/master/assets/donate/weixin.png)|

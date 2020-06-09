@@ -2,12 +2,12 @@
 package pcsconfig
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/baidupcs/dlinkclient"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/jsonhelper"
-	"github.com/iikira/BaiduPCS-Go/pcsverbose"
-	"github.com/iikira/BaiduPCS-Go/requester"
+	"github.com/Luis0001/BaiduPCS-Go/baidupcs"
+	"github.com/Luis0001/BaiduPCS-Go/baidupcs/dlinkclient"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/jsonhelper"
+	"github.com/Luis0001/BaiduPCS-Go/pcsverbose"
+	"github.com/Luis0001/BaiduPCS-Go/requester"
 	"github.com/json-iterator/go"
 	"os"
 	"path/filepath"

@@ -5,16 +5,16 @@ import (
 	"archive/zip"
 	"bytes"
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/internal/pcsconfig"
-	"github.com/iikira/BaiduPCS-Go/pcsliner"
-	"github.com/iikira/BaiduPCS-Go/pcsutil"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/cachepool"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/checkaccess"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/converter"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/jsonhelper"
-	"github.com/iikira/BaiduPCS-Go/requester/downloader"
-	"github.com/iikira/BaiduPCS-Go/requester/rio"
-	"github.com/iikira/BaiduPCS-Go/requester/transfer"
+	"github.com/Luis0001/BaiduPCS-Go/internal/pcsconfig"
+	"github.com/Luis0001/BaiduPCS-Go/pcsliner"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/cachepool"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/checkaccess"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/converter"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/jsonhelper"
+	"github.com/Luis0001/BaiduPCS-Go/requester/downloader"
+	"github.com/Luis0001/BaiduPCS-Go/requester/rio"
+	"github.com/Luis0001/BaiduPCS-Go/requester/transfer"
 	"net/http"
 	"path/filepath"
 	"regexp"
@@ -42,7 +42,7 @@ func CheckUpdate(version string, yes bool) {
 	}
 	fmt.Println("检测更新中, 稍候...")
 	c := pcsconfig.Config.HTTPClient()
-	resp, err := c.Req(http.MethodGet, "https://api.github.com/repos/iikira/BaiduPCS-Go/releases/latest", nil, nil)
+	resp, err := c.Req(http.MethodGet, "https://api.github.com/repos/Luis0001/BaiduPCS-Go/releases/latest", nil, nil)
 	if resp != nil {
 		defer resp.Body.Close()
 	}

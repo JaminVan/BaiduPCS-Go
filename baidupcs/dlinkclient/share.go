@@ -1,7 +1,7 @@
 package dlinkclient
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs/pcserror"
+	"github.com/Luis0001/BaiduPCS-Go/baidupcs/pcserror"
 	"net/http"
 	"strconv"
 )

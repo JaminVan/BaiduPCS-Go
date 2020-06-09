@@ -2,7 +2,7 @@ package cachepool_test
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/pcsutil/cachepool"
+	"github.com/Luis0001/BaiduPCS-Go/pcsutil/cachepool"
 	"reflect"
 	"runtime"
 	"testing"

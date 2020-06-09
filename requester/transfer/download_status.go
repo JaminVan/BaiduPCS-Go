@@ -1,7 +1,7 @@
 package transfer
 
 import (
-	"github.com/iikira/BaiduPCS-Go/requester/rio/speeds"
+	"github.com/Luis0001/BaiduPCS-Go/requester/rio/speeds"
 	"sync"
 	"sync/atomic"
 	"time"
