@@ -2,8 +2,8 @@ package netdisksign_test
 
 import (
 	"fmt"
+	"github.com/Luis0001/Baidu-Login/bdcrypto"
 	"github.com/Luis0001/BaiduPCS-Go/baidupcs/netdisksign"
-	"github.com/iikira/Baidu-Login/bdcrypto"
 	"testing"
 )
 

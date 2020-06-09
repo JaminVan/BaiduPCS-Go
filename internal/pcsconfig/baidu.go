@@ -6,7 +6,7 @@ import (
 	"github.com/Luis0001/BaiduPCS-Go/baidupcs"
 	"github.com/Luis0001/BaiduPCS-Go/pcstable"
 	"github.com/Luis0001/BaiduPCS-Go/pcsutil/converter"
-	"github.com/iikira/baidu-tools/tieba"
+	"github.com/Luis0001/baidu-tools/tieba"
 	"github.com/olekukonko/tablewriter"
 	"path"
 	"path/filepath"

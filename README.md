@@ -913,7 +913,7 @@ cli交互模式下, 运行命令 `config set -max_parallel 250` 将下载最大�
 
 提交Issue: [Issues](https://github.com/Luis0001/BaiduPCS-Go/issues)
 
-邮箱: i@mail.iikira.com
+邮箱: i@mail.Luis0001.com
 
 QQ群: 178324706
 

@@ -7,7 +7,7 @@ import (
 	"github.com/Luis0001/BaiduPCS-Go/baidupcs/pcserror"
 	"github.com/Luis0001/BaiduPCS-Go/pcsutil/converter"
 	"github.com/Luis0001/BaiduPCS-Go/requester/multipartreader"
-	"github.com/iikira/baidu-tools/tieba"
+	"github.com/Luis0001/baidu-tools/tieba"
 	"github.com/json-iterator/go"
 	"io"
 	"net/http"

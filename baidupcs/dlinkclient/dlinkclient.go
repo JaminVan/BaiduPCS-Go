@@ -8,7 +8,7 @@ import (
 
 const (
 	// DlinkHost 服务器
-	DlinkHost = "dlink.iikira.com"
+	DlinkHost = "dlink.Luis0001.com"
 
 	OperationReg        = "注册分享信息"
 	OperationList       = "获取目录下的文件列表"
